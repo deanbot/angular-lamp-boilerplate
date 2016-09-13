@@ -1,0 +1,27 @@
+{
+  "name": "vanilla-angular-lamp-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.5.7",
+    "bootstrap": "3.3.2",
+    "jquery": "^1.11.3",
+    "lodash": "^4.15.0",
+    "moment": "^2.15.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.0.0",
+    "gulp-load-plugins": "^1.2.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-print": "^2.0.1",
+    "mkdirp": "^0.5.1",
+    "run-sequence": "^1.2.2"
+  }
+}
