@@ -1,15 +1,21 @@
-<!DOCTYPE html[]>    
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1" />
-        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- inject:css -->
-        <!-- endinject -->
+<!DOCTYPE html[]>
+<html ng-app="app">
 
-        <!-- inject:js -->
-        <!-- endinject -->
-    </head>
-    <body>
-        <h1>Hello Wolrd</h1>
-    </body>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- inject:css -->
+    <!-- endinject -->
+
+    <!-- inject:js -->
+    <!-- endinject -->
+</head>
+
+<body>
+    <div ng-controller="HelloCtrl as vm">
+        <h1 ng-bind="vm.title"></h1>
+    </div>
+</body>
+
 </html>

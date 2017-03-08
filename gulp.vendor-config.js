@@ -3,13 +3,13 @@
 /**
  * Configure which vendor files are included in build
  */
-module.exports = function() {
+module.exports = function () {
     var config = {
-        "css" : 
+        "css":
         [
             "./node_modules/bootstrap/dist/css/bootstrap.min.css"
         ],
-        "js" :
+        "js":
         [
             "./node_modules/jquery/dist/jquery.min.js",
             "./node_modules/angular/angular.min.js",
