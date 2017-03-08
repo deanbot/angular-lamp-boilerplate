@@ -4,7 +4,7 @@ A jumpstart template for quick hacking on angular apps hosted on a local web ser
 
 # installation
 
-1. create web directory i.e. /c/xampp/htdocs/angular-site.dev
+1. create web directory i.e. `/c/xampp/htdocs/angular-site.dev`
 2. set up vhosts as needed
 3. clone repo into web directory
 4. run `npm i` in the cloned directory
@@ -16,6 +16,6 @@ A jumpstart template for quick hacking on angular apps hosted on a local web ser
 
 # suggested use
 
-Add references to vendor files you want to include in ./gulp.vendor-config.js.
+Add references to vendor files you want to include in `./gulp.vendor-config.js`.
 
-Add your app js files to ./src/app/ (you can add nested folders).
+Add your app js files to `./src/app/` (you can add nested folders).
